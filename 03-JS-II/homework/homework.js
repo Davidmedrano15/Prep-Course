@@ -195,8 +195,9 @@ function doWhile(numero) {
       yo = yo + 1;
       a = a + 5 ;
     } else ( yo > 8);
-    return un ;
+    return 1;
 } 
+
 
 
 // No modificar nada debajo de esta línea
