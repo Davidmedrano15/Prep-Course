@@ -195,8 +195,8 @@ function doWhile(numero) {
       yo = yo + 1;
       a = a + 5 ;
     } else ( yo > 8);
-    return 1;
-} 
+    return  1; 
+}   
 
 
 
