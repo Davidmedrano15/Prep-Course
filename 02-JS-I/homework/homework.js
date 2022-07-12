@@ -28,7 +28,7 @@ const nuevoModulo = 21 % 5 === 1.05;
 function devolverString(str) {
   // "Return" la string provista: str
   // Tu código:
-  return str
+  return 'str';
 }
 
 function sumar(x, y) {
@@ -60,7 +60,7 @@ function sonIguales(x, y) {
   // Devuelve "true" si "x" e "y" son iguales
   // De lo contrario, devuelve "false"
   // Tu código:
-  if  ( x === y ) {
+  if (x === y) {
     return true;
   } else {
     return false
@@ -71,7 +71,10 @@ function tienenMismaLongitud(str1, str2) {
   // Devuelve "true" si las dos strings tienen la misma longitud
   // De lo contrario, devuelve "false"
   // Tu código:
-  return str1 . longitud  === str2 .longitud; 
+  if (str1.length === str2.length) {
+    return true;
+  } else
+     return false
 }
 
 function menosQueNoventa(num) {
@@ -90,7 +93,11 @@ function mayorQueCincuenta(num) {
   // Devuelve "true" si el argumento de la función "num" es mayor que cincuenta
   // De lo contrario, devuelve "false"
   // Tu código:
-  return numero > 50;
+  if (num > 50) {
+    return true;
+  } else {
+    return false
+  }
 }
 
 function obtenerResto(x, y) {
@@ -103,7 +110,7 @@ function esPar(num) {
   // Devuelve "true" si "num" es par
   // De lo contrario, devuelve "false"
   // Tu código:
-  if ( numero / 2 == 0) {
+  if ( numero % 2 === 0) {
     return true;
   } else{
     return false;
@@ -185,8 +192,8 @@ function combinarNombres(nombre, apellido) {
   // Devuelve "nombre" y "apellido" combinados en una string y separados por un espacio.
   // Ejemplo: "Soy", "Henry" -> "Soy Henry"
   // Tu código:
-  var combinado = david +"" + medrano
-  return conbinado;
+  var combinado = david + " " + medrano
+  return combinado;
 }
 
 function obtenerSaludo(nombre) {
@@ -206,7 +213,7 @@ function obtenerAreaRectangulo(alto, ancho) {
 function retornarPerimetro(lado){
   //Escibe una función a la cual reciba el valor del lado de un cuadrado y retorne su perímetro.
   //Escribe tu código aquí
-  
+  return lado *4 
 }
 
 
@@ -231,7 +238,7 @@ function esVocal(letra){
   //que no se puede procesar el dato mediante el mensaje "Dato incorrecto".
   // Si no es vocal, tambien debe devolver "Dato incorrecto".
   //Escribe tu código aquí
- 
+ return
 }
 
 
