@@ -7,15 +7,17 @@ function crearGato (nombre, edad) {
   // Devuelve el objeto
   // Tu código:
   var objeto = {
-    nombre: "nombre",
-    edad: "edad",
-    meow: function () {
-      return "meow";
+    nombre: 'nombre',
+    edad: edad,
+    meow: function() {
+      return 'meow';
     }
-
   };
-  return objeto;
-}
+      return objeto;
+  }
+
+
+
 
 function agregarPropiedad (objeto, property) {
   // Agrega una propiedad al objeto (argumento "objeto") con el valor `null`
@@ -64,11 +66,11 @@ function nuevoUsuario (nombre, email, password) {
   // Devuelve el objeto
   // Tu código:
   var objeto = {
-    nombre: "nombre",
-    email: email,
-    password: contraseña
-  }; 
-  return objeto;
+    nombre: 'David'
+    email: davidmedranoh@hotmail.com
+    contraseña: contraseña
+  };
+  return objeto
 
 }
 
@@ -88,7 +90,7 @@ function tienePropiedad (objeto, propiedad) {
   // "propiedad" es un string
   // De lo contrario, devuelve "false"
   // Tu código:
-  if (objeto ["ptopiedad"]) {
+  if (objeto ["propiedad"]) {
     return true;
   } else {
     return false
